@@ -1,0 +1,20 @@
+{{#if updateForm}}
+  <div class="update-box">
+    <h3>Update The Answer</h3>
+    <form>
+      <div class="form-group">
+        <label for="an_author">Author</label>
+        {{input value=answer.an_author class="an_author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="an_notes">Answer</label>
+        {{textarea rows=8 value=answer.an_notes class="an_notes"}}
+      </div>
+
+      <button {{action 'updateAnswer' answer}}>Save Changes</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'showUpdateForm'}}>Update the Answer</button>
+{{/if}}
