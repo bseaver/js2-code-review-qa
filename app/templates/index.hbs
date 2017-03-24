@@ -1,1 +1,9 @@
 <h3>Welcome to Questions and Answers</h3>
+
+{{!new-question saveQuestion="saveQuestion"}}
+
+
+<h3>Current Questions</h3>
+{{#each model as |question|}}
+  {{question-tile question=question}}
+{{/each}}

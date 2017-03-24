@@ -92,7 +92,7 @@ Specify what it takes to deploy your app.
 * Create sample model json file
 * Create Firebase app and import json
 
-* Install Firebase adaptor
+* Install Firebase adaptor (ember server restart needed)
 * Create models
 * Display initial data on index
 
@@ -107,10 +107,17 @@ Specify what it takes to deploy your app.
 * `git status, git reset, git add, git commit`
 * npm install `after clone`
 * bower install `(no apparent effect on School mac)`
+
 * ember install ember-bootstrap
 * ember g component nav-bar
 * ember g route index
 * ember g route about
 * ember g route contact
+
+* ember install emberfire
+* ember g model question
+* ember g model answer
+* ember g component question-tile
+
 
 ##### End of File
