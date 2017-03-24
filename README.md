@@ -91,6 +91,7 @@ Specify what it takes to deploy your app.
 
 * Create sample model json file
 * Create Firebase app and import json
+
 * Install Firebase adaptor
 * Create models
 * Display initial data on index

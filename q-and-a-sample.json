@@ -1,0 +1,11 @@
+{
+"questions": [{
+  "qu_title": "How to ember: delete a component",
+  "qu_notes": "(want to create a route instead)",
+  "qu_author": "Amanoo Bee"
+  }],
+"answers": [{
+  "an_notes": "just delete 3 files created by ember g component",
+  "an_author": "Canrelay Tewyew"
+  }]
+}
