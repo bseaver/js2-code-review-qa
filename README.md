@@ -85,7 +85,7 @@ Specify what it takes to deploy your app.
 * Commit README.md, then initial framework
 
 * Install bootstrap
-* Create routes for contact, about
+* Create routes for index, contact, about
 * Create bootstrap navbar for routes and index
 * Verify routes and navigation
 
@@ -98,5 +98,18 @@ Specify what it takes to deploy your app.
 * Create Add Update Delete for Question with
 * Question Route, Components, forms and action code
 
-* Create Add, Edit, Delete of Reviews on Questions 
+* Create Add, Edit, Delete of Reviews on Questions
 * Using Components
+
+## Bash Commands used:
+* ember new qa `(from Desktop)`
+* `git status, git reset, git add, git commit`
+* npm install `after clone`
+* bower install `(no apparent effect on School mac)`
+* ember install ember-bootstrap
+* ember g component nav-bar
+* ember g route index
+* ember g route about
+* ember g route contact
+
+##### End of File
