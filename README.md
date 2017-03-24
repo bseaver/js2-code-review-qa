@@ -119,5 +119,8 @@ Specify what it takes to deploy your app.
 * ember g model answer
 * ember g component question-tile
 
+* ember g route question
+
+
 
 ##### End of File
