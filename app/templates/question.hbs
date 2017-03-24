@@ -10,10 +10,15 @@
     </tr>
     <tr>
       <th>Notes</th>
-      <td>{{model.qu_notes}}</td>
+      <td><textarea readonly rows=15>{{model.qu_notes}}</textarea></td>
+    </tr>
+    <tr>
+      <th>Delete</th>
+      <td><button class="bg-warning" {{action 'delete' model}}>(It's Permanent!)</button>
+</td>
     </tr>
   </tbody>
 </table>
 
 {{update-question question=model update="update"}}
-<button {{action 'delete' model}}>Delete </button>
+<!-- <button {{action 'delete' model}}>Delete </button> -->
