@@ -1,0 +1,37 @@
+<h3>Answers</h3>
+{{#each question.answers as |answer|}}
+<table class="table table-bordered question-table">
+  <tbody>
+    <tr>
+      <th>Author</th>
+      <td>{{answer.an_author}}</td>
+    </tr>
+    <tr>
+      <th>Answer</th>
+      <td><textarea readonly rows=10>{{answer.an_notes}}</textarea></td>
+    </tr>
+    <tr>
+      <th>Delete</th>
+      <td>
+        <button class="bg-warning" {{action 'deleteAnswer' answer}}>(It's Permanent!)</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!--
+  <div class="form-group">
+    <label for="an_author">Author</label>
+    {{input value=answer.an_author class="an_author"}}
+  </div>
+
+  <div class="form-group">
+    <label for="an_notes">Answer</label>
+      {{textarea rows=8 value=answer.an_notes class="an_notes"}}
+  </div> -->
+
+    <!-- {{update-form thisComponent=costStructure hasCustomerSegment=false update="update"}}
+
+    <button {{action 'delete' costStructure}}>Delete </button> -->
+{{/each}}

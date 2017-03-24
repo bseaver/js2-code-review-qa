@@ -121,6 +121,9 @@ Specify what it takes to deploy your app.
 
 * ember g route question
 
+* ember g component all-answers
+* ember g component new-answer
+
 
 
 ##### End of File
