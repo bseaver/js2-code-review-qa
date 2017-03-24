@@ -7,3 +7,21 @@ form input, form textarea {
   padding: 4px;
   margin-bottom: 8px;
 }
+
+
+/*question-table th
+{
+    width:auto;
+    text-align:right;
+    white-space: nowrap
+}
+question-table {
+    width: 100%
+}
+question-table
+{
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    border: 1px solid
+}*/

@@ -1,3 +1,19 @@
-<h4>{{model.qu_title}}</h4>
+<table class="table table-bordered question-table">
+  <tbody>
+    <tr>
+      <th>Question</th>
+      <td>{{model.qu_title}}</td>
+    </tr>
+    <tr>
+      <th>Asker</th>
+      <td>{{model.qu_author}}</td>
+    </tr>
+    <tr>
+      <th>Notes</th>
+      <td>{{model.qu_notes}}</td>
+    </tr>
+  </tbody>
+</table>
+
 {{update-question question=model update="update"}}
 <button {{action 'delete' model}}>Delete </button>
