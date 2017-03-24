@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('updateForm', true);
     },
     updateAnswer(answer) {
-      console.log("update-answer.js / actions: updateAnswer()");
       var params = {
         'an_author': this.get('an_author'),
         'an_notes': this.get('an_notes'),
