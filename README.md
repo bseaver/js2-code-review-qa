@@ -42,8 +42,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd qa`
+* `git clone https://github.com/bseaver/js2-code-review-qa.git` this repository
+* `cd js2-code-review-qa`
 * `npm install`
 * `bower install`
 
